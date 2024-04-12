@@ -6882,6 +6882,80 @@
 		<reward type="LootItem" id="groupQuestAmmo,groupQuestResources,groupQuestMods,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
 	</quest>
 
+	<quest id="quest_radial13">
+		<property name="name_key" value="quest_radial13_name"/>
+		<property name="subtitle_key" value="quest_radial13_subtitle"/>
+		<property name="description_key" value="quest_radial13_desc"/>
+		<property name="offer_key" value="quest_radial13_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="difficulty" value="easy"/>
+		<property name="reward_choices_count" value="3"/>
+		<property name="shareable" value="false"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_radialx_complete"/>
+
+		<objective type="FetchKeep" id="foodCanChili" value="5"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="1600"/>
+		<reward type="Item" id="casinoCoin" value="3200"/>
+
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestResources" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestAmmo,groupQuestResources,groupQuestMods,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+	</quest>
+
+	<quest id="quest_radial14">
+		<property name="name_key" value="quest_radial14_name"/>
+		<property name="subtitle_key" value="quest_radial14_subtitle"/>
+		<property name="description_key" value="quest_radial14_desc"/>
+		<property name="offer_key" value="quest_radial14_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="difficulty" value="easy"/>
+		<property name="reward_choices_count" value="3"/>
+		<property name="shareable" value="false"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_radialx_complete"/>
+
+		<objective type="FetchKeep" id="foodCanSham" value="5"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="1600"/>
+		<reward type="Item" id="casinoCoin" value="3200"/>
+
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestResources" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestAmmo,groupQuestResources,groupQuestMods,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+	</quest>
+
 	<quest id="quest_radial18">
 		<property name="name_key" value="quest_radial18_name"/>
 		<property name="subtitle_key" value="quest_radial18_subtitle"/>
@@ -6938,6 +7012,439 @@
 		<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" ischosen="true"/>
 	</quest>
 
+	<quest id="quest_radial19">
+		<property name="name_key" value="quest_radial19_name"/>
+		<property name="subtitle_key" value="quest_radial19_subtitle"/>
+		<property name="description_key" value="quest_radial19_desc"/>
+		<property name="offer_key" value="quest_radial19_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="casinoCoin" value="1"/>
+
+		<reward type="Quest" id="quest_radial19b"/>
+	</quest>
+
+	<quest id="quest_radial19b">
+		<property name="name_key" value="quest_radial19_name"/>
+		<property name="subtitle_key" value="quest_radial19_subtitle"/>
+		<property name="description_key" value="quest_radial19_desc"/>
+		<property name="offer_key" value="quest_radial19_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="difficulty" value="easy"/>
+		<property name="reward_choices_count" value="4"/>
+		<property name="shareable" value="false"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_radialx_complete"/>
+
+		<objective type="EntityKill" id="zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated" value="10" phase="1"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="3200"/>
+		<reward type="Item" id="casinoCoin" value="6400"/>
+
+		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSteel" ischosen="true"/>
+		<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" ischosen="true"/>
+	</quest>
+
+	<quest id="quest_radial20">
+		<property name="name_key" value="quest_radial20_name"/>
+		<property name="subtitle_key" value="quest_radial20_subtitle"/>
+		<property name="description_key" value="quest_radial20_desc"/>
+		<property name="offer_key" value="quest_radial20_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="casinoCoin" value="1"/>
+
+		<reward type="Quest" id="quest_radial20b"/>
+	</quest>
+
+	<quest id="quest_radial20b">
+		<property name="name_key" value="quest_radial20_name"/>
+		<property name="subtitle_key" value="quest_radial20_subtitle"/>
+		<property name="description_key" value="quest_radial20_desc"/>
+		<property name="offer_key" value="quest_radial20_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="difficulty" value="easy"/>
+		<property name="reward_choices_count" value="4"/>
+		<property name="shareable" value="false"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_radialx_complete"/>
+
+		<objective type="EntityKill" id="zombieBusinessMan,zombieBusinessManFeral,zombieBusinessManRadiated" value="10" phase="1"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="3200"/>
+		<reward type="Item" id="casinoCoin" value="6400"/>
+
+		<reward type="LootItem" id="groupQuestWeapons" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestTools" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSteel" ischosen="true"/>
+		<reward type="LootItem" id="groupQuestT1SkillMagazineBundle" ischosen="true"/>
+	</quest>
+
+	<quest id="quest_radial21">
+		<property name="name_key" value="quest_radial21_name"/>
+		<property name="subtitle_key" value="quest_radial21_subtitle"/>
+		<property name="description_key" value="quest_radial21_desc"/>
+		<property name="offer_key" value="quest_radial21_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="casinoCoin" value="1"/>
+
+		<reward type="Quest" id="quest_radial21b"/>
+	</quest>
+
+	<quest id="quest_radial21b">
+		<property name="name_key" value="quest_radial21_name"/>
+		<property name="subtitle_key" value="quest_radial21_subtitle"/>
+		<property name="description_key" value="quest_radial21_desc"/>
+		<property name="offer_key" value="quest_radial21_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="difficulty" value="easy"/>
+		<property name="reward_choices_count" value="3"/>
+		<property name="shareable" value="false"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_radialx_complete"/>
+
+		<objective type="EntityKill" id="animalStag,animalDoe" value="5" phase="1"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="1600"/>
+		<reward type="Item" id="casinoCoin" value="3200"/>
+
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestResources" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestAmmo,groupQuestResources,groupQuestMods,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+	</quest>
+
+	<quest id="quest_radial22">
+		<property name="name_key" value="quest_radial22_name"/>
+		<property name="subtitle_key" value="quest_radial22_subtitle"/>
+		<property name="description_key" value="quest_radial22_desc"/>
+		<property name="offer_key" value="quest_radial22_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="casinoCoin" value="1"/>
+
+		<reward type="Quest" id="quest_radial22b"/>
+	</quest>
+
+	<quest id="quest_radial22b">
+		<property name="name_key" value="quest_radial22_name"/>
+		<property name="subtitle_key" value="quest_radial22_subtitle"/>
+		<property name="description_key" value="quest_radial22_desc"/>
+		<property name="offer_key" value="quest_radial22_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="difficulty" value="easy"/>
+		<property name="reward_choices_count" value="3"/>
+		<property name="shareable" value="false"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_radialx_complete"/>
+
+		<objective type="EntityKill" id="animalRabbit" value="5" phase="1"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="1600"/>
+		<reward type="Item" id="casinoCoin" value="3200"/>
+
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestResources" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestAmmo,groupQuestResources,groupQuestMods,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+	</quest>
+
+	<quest id="quest_radial23">
+		<property name="name_key" value="quest_radial23_name"/>
+		<property name="subtitle_key" value="quest_radial23_subtitle"/>
+		<property name="description_key" value="quest_radial23_desc"/>
+		<property name="offer_key" value="quest_radial23_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="casinoCoin" value="1"/>
+
+		<reward type="Quest" id="quest_radial23b"/>
+	</quest>
+
+	<quest id="quest_radial23b">
+		<property name="name_key" value="quest_radial23_name"/>
+		<property name="subtitle_key" value="quest_radial23_subtitle"/>
+		<property name="description_key" value="quest_radial23_desc"/>
+		<property name="offer_key" value="quest_radial23_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="difficulty" value="easy"/>
+		<property name="reward_choices_count" value="3"/>
+		<property name="shareable" value="false"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_radialx_complete"/>
+
+		<objective type="EntityKill" id="animalChicken" value="5" phase="1"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="1600"/>
+		<reward type="Item" id="casinoCoin" value="3200"/>
+
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestResources" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestAmmo,groupQuestResources,groupQuestMods,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+	</quest>
+
+	<quest id="quest_radial24">
+		<property name="name_key" value="quest_radial24_name"/>
+		<property name="subtitle_key" value="quest_radial24_subtitle"/>
+		<property name="description_key" value="quest_radial24_desc"/>
+		<property name="offer_key" value="quest_radial24_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="casinoCoin" value="1"/>
+
+		<reward type="Quest" id="quest_radial24b"/>
+	</quest>
+
+	<quest id="quest_radial24b">
+		<property name="name_key" value="quest_radial24_name"/>
+		<property name="subtitle_key" value="quest_radial24_subtitle"/>
+		<property name="description_key" value="quest_radial24_desc"/>
+		<property name="offer_key" value="quest_radial24_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="difficulty" value="easy"/>
+		<property name="reward_choices_count" value="3"/>
+		<property name="shareable" value="false"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_radialx_complete"/>
+
+		<objective type="EntityKill" value="10" phase="1"/>
+		<!-- REVISAR QUE SOLO SEAN ZOMBIS -->
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="1600"/>
+		<reward type="Item" id="casinoCoin" value="3200"/>
+
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestResources" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestAmmo,groupQuestResources,groupQuestMods,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+	</quest>
+
+	<quest id="quest_radial25">
+		<property name="name_key" value="quest_radial25_name"/>
+		<property name="subtitle_key" value="quest_radial25_subtitle"/>
+		<property name="description_key" value="quest_radial25_desc"/>
+		<property name="offer_key" value="quest_radial25_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="casinoCoin" value="1"/>
+
+		<reward type="Quest" id="quest_radial25b"/>
+	</quest>
+
+	<quest id="quest_radial25b">
+		<property name="name_key" value="quest_radial25_name"/>
+		<property name="subtitle_key" value="quest_radial25_subtitle"/>
+		<property name="description_key" value="quest_radial25_desc"/>
+		<property name="offer_key" value="quest_radial25_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="difficulty" value="easy"/>
+		<property name="reward_choices_count" value="3"/>
+		<property name="shareable" value="false"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_radialx_complete"/>
+
+		<objective type="EntityKill" value="15" phase="1"/>
+		<!-- REVISAR QUE SOLO SEAN ZOMBIS -->
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="1600"/>
+		<reward type="Item" id="casinoCoin" value="3200"/>
+
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestResources" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestAmmo,groupQuestResources,groupQuestMods,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+	</quest>
+
+	<quest id="quest_radial26">
+		<property name="name_key" value="quest_radial26_name"/>
+		<property name="subtitle_key" value="quest_radial26_subtitle"/>
+		<property name="description_key" value="quest_radial26_desc"/>
+		<property name="offer_key" value="quest_radial26_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge" />
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="FetchKeep" id="casinoCoin" value="1"/>
+
+		<reward type="Quest" id="quest_radial26b"/>
+	</quest>
+
+	<quest id="quest_radial26b">
+		<property name="name_key" value="quest_radial26_name"/>
+		<property name="subtitle_key" value="quest_radial26_subtitle"/>
+		<property name="description_key" value="quest_radial26_desc"/>
+		<property name="offer_key" value="quest_radial26_offer"/>
+		<property name="icon" value="ui_game_symbol_letter"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="difficulty" value="easy"/>
+		<property name="reward_choices_count" value="3"/>
+		<property name="shareable" value="false"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_radialx_complete"/>
+
+		<objective type="EntityKill" value="20" phase="1"/>
+		<!-- REVISAR QUE SOLO SEAN ZOMBIS -->
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="1600"/>
+		<reward type="Item" id="casinoCoin" value="3200"/>
+
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestResources" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestAmmo,groupQuestResources,groupQuestMods,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+	</quest>
+
 	<quest id="quest_radial27">
 		<property name="name_key" value="quest_radial27_name"/>
 		<property name="subtitle_key" value="quest_radial27_subtitle"/>
@@ -6958,7 +7465,7 @@
 		<property name="name_key" value="quest_radial27_name"/>
 		<property name="subtitle_key" value="quest_radial27_subtitle"/>
 		<property name="description_key" value="quest_radial27_desc"/>
-		<property name="offer_key" value="quest_radial18_offer"/>
+		<property name="offer_key" value="quest_radial27_offer"/>
 		<property name="icon" value="ui_game_symbol_letter"/>
 		<property name="repeatable" value="true"/>
 		<property name="category_key" value="challenge"/>
