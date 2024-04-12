@@ -9286,6 +9286,24 @@
 			</property>
 		</item>
 
+		<item name="quest_radial13">
+			<property name="Extends" value="questMaster"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="quest_Radial13"/>
+				<property name="DescriptionKey" value="quest_radial13Desc" />
+			</property>
+		</item>
+
+		<item name="quest_radial14">
+			<property name="Extends" value="questMaster"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="quest_Radial14"/>
+				<property name="DescriptionKey" value="quest_radial14Desc" />
+			</property>
+		</item>
+
+		<!-- FALTAN LAS 15,16,17 -->
+
 		<item name="quest_radial18">
 			<property name="Extends" value="questMaster"/>
 			<property class="Action0">
@@ -9294,7 +9312,69 @@
 			</property>
 		</item>
 
-		<!-- nuevas -->
+		<item name="quest_radial19">
+			<property name="Extends" value="questMaster"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="quest_Radial19"/>
+				<property name="DescriptionKey" value="quest_radial19Desc" />
+			</property>
+		</item>
+
+		<item name="quest_radial20">
+			<property name="Extends" value="questMaster"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="quest_Radial20"/>
+				<property name="DescriptionKey" value="quest_radial20Desc" />
+			</property>
+		</item>
+
+		<item name="quest_radial21">
+			<property name="Extends" value="questMaster"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="quest_Radial21"/>
+				<property name="DescriptionKey" value="quest_radial21Desc" />
+			</property>
+		</item>
+
+		<item name="quest_radial22">
+			<property name="Extends" value="questMaster"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="quest_Radial22"/>
+				<property name="DescriptionKey" value="quest_radial22Desc" />
+			</property>
+		</item>
+
+		<item name="quest_radial23">
+			<property name="Extends" value="questMaster"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="quest_Radial23"/>
+				<property name="DescriptionKey" value="quest_radial23Desc" />
+			</property>
+		</item>
+
+		<item name="quest_radial24">
+			<property name="Extends" value="questMaster"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="quest_Radial24"/>
+				<property name="DescriptionKey" value="quest_radial24Desc" />
+			</property>
+		</item>
+
+		<item name="quest_radial25">
+			<property name="Extends" value="questMaster"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="quest_Radial25"/>
+				<property name="DescriptionKey" value="quest_radial25Desc" />
+			</property>
+		</item>
+
+		<item name="quest_radial26">
+			<property name="Extends" value="questMaster"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="quest_Radial26"/>
+				<property name="DescriptionKey" value="quest_radial26Desc" />
+			</property>
+		</item>
 
 		<item name="quest_radial27">
 			<property name="Extends" value="questMaster"/>
